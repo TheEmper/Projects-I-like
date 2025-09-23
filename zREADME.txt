@@ -1,0 +1,1 @@
+Projects made by me to practice Python, a small bit of machine learning and how programming could interact with business skills.

@@ -1,0 +1,1 @@
+This project analyzes sales data from a CSV file and generates a dashboard with total sales, top products, and sales trends.

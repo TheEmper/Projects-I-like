@@ -1,0 +1,1 @@
+This project groups customers into segments based on their spending behavior using machine learning (KMeans clustering). The output helps businesses identify different customer types.

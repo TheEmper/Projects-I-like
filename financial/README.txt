@@ -1,0 +1,1 @@
+This project analyzes financial data (Income Statement + Balance Sheet) from CSV files and calculates key financial ratios to evaluate business performance.
