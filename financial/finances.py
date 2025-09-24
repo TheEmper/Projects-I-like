@@ -26,7 +26,7 @@ print(df[[
     "Debt_Ratio", "ROE", "Current_Ratio"
 ]])
 
-# Make the chart
+# the chart
 plt.figure(figsize=(10,6))
 
 plt.plot(df["Year"], df["Gross_Margin"], marker="o", label="Gross Margin")

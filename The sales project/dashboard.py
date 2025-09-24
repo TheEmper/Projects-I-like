@@ -5,7 +5,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 csv_path = os.path.join(BASE_DIR, "sales.csv")
-# loading the data into the file
 
 
 df = pd.read_csv(csv_path)
@@ -24,7 +23,7 @@ print(sales_by_region)
 print("\nSales by Product:")
 print(sales_by_product)
 
-# making the charts/graphs
+# the charts
 
 plt.figure(figsize=(12,6))
 

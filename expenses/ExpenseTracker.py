@@ -8,7 +8,7 @@ csv_path = os.path.join(BASE_DIR, "expenses.csv")
 # loading the data into the file
 df = pd.read_csv(csv_path, parse_dates=["Date"])
 
-# Defining what can be included in which category
+# Defining the categories yadayada
 categories = {
     "Groceries": ["walmart", "kroger", "aldi", "costco"],
     "Transport": ["uber", "lyft", "gas", "shell", "chevron"],
@@ -36,7 +36,7 @@ summary = df.groupby(["Month", "Category"])["Amount"].sum().unstack(fill_value=0
 print("\nExpense Summary by Month:")
 print(summary)
 
-# Making the chart
+# the chart
 
 summary.plot(kind="bar", stacked=True, figsize=(10,6))
 plt.title("Monthly Expenses by Category")
