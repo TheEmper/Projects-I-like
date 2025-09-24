@@ -5,7 +5,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 csv_path = os.path.join(BASE_DIR, "financials.csv")
-# loading the data into the file
 df = pd.read_csv(csv_path)
 
 # Calculating what equals what

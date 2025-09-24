@@ -22,7 +22,7 @@ df["Segment"] = kmeans.fit_predict(X_scaled)
 print("\nCustomer Segmentation Results:")
 print(df.groupby("Segment")[["Age", "Annual_Income", "Spending_Score"]].mean())
 
-#chartt
+# chart
 plt.figure(figsize=(8,6))
 plt.scatter(df["Annual_Income"], df["Spending_Score"], 
             c=df["Segment"], cmap="viridis", s=80, alpha=0.7, edgecolors="k")
